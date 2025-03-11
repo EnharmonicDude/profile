@@ -175,12 +175,6 @@ ul {
   padding: 1rem 2rem;
   border-radius: 10px;
 }
-.call-text{
-}
-
-.button-box{
-
-}
 
 .signup2{
   background-color: #3882F6;
@@ -190,4 +184,15 @@ ul {
   font-size: 18px;
   padding: 0.5rem 1rem;
   margin-left: 2rem;
+}
+
+/*Footer*/
+
+footer{
+  color:#E5E7EB;
+  height: 7rem;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  align-items: center;;
 }
