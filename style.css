@@ -12,12 +12,12 @@ body{
 
 /*Header*/
 nav{
-    padding: 12px;
+    padding: 12px;;
 }
 
 ul{
     list-style-type: none;
-    align-items: baseline;
+    align-items: center;
     padding: 0px;
     margin: 0;
 }
@@ -42,10 +42,20 @@ ul {
     margin-right: auto;
   }
 
+  .logo-img{
+    width: 200px;
+    height: auto;
+  }
+
   /*Hero*/
   h1{
     color: #F9FAF8;
     font-size: 48px;
+  }
+
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .hero-text > p{
@@ -53,7 +63,27 @@ ul {
     font-size: 18px;
   }
 
+  .hero-text{
+    flex: 1 1 50%;
+    padding: 24px;
+    width: 100%;
+  }
+  .hero-img{
+    flex: 1 1 50%;
+    padding: 24px;
+    align-content: center;
+  }
+
+  .hero-img > img{
+    width: 100%;
+    height: auto;
+  }
+
   .signup1{
     background-color: #3882F6;
     color:#E5E7EB;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    padding: 5px 16px;
   }
