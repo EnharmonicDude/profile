@@ -12,13 +12,13 @@ body{
 
 /*Header*/
 nav{
-    padding: 12px;;
+    padding: 12px;
 }
 
 ul{
     list-style-type: none;
     align-items: center;
-    padding: 0px;
+    padding: 0 2rem 0 0;
     margin: 0;
 }
 
@@ -27,6 +27,7 @@ ul a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin-right: 2rem;
 }
 .logo a {
     font-size: 24px;
@@ -56,6 +57,9 @@ ul {
   .hero{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+    padding-bottom: 2rem;
   }
 
   .hero-text > p{
@@ -93,13 +97,14 @@ ul {
 
   .info{
     background-color: white; 
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
 
   .info h2{
